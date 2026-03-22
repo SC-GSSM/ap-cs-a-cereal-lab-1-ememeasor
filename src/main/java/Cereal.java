@@ -52,7 +52,7 @@ public class Cereal
     /* toString method returns the values stored in the instance variables
        concatenated in a sentence starting with "Cereal: " */
        public String toString(){
-        return getName + "has " + getCalories + " calories, " + getFiber + " fiber, " + getCarbs + " carbohydrates, "+ getCups + " cups per serving.";
+        return getName + "has " + getCalories + " calories, " + getFiber + " grams of fiber, " + getCarbs + " grams of carbohydrates, and  "+ getCups + " cups per serving.";
        }
 
 }
