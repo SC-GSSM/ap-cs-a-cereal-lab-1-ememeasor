@@ -7,7 +7,7 @@ import java.io.FileReader;
 public class CerealRunner
 {
     // create a private instance variable to store an ArrayList of Cereal objects
-     private ArrayList<Ceral> cerals();
+     private ArrayList<Ceral> cerals;
 
     public CerealRunner(String fileName)
     {
@@ -22,9 +22,9 @@ public class CerealRunner
             {
                 String myStr = scan.nextLine();
 
-                // use the split method to parse the data into an array of
-                //   String objects
-                String[] data = myStr.split(",")
+                //use the split method to parse the data into an array of
+                //String objects
+                String[] data = myStr.split(",");
 
                 // go through each String array element and save it
                 //   into the appropriate variable which will be used to
