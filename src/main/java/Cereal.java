@@ -11,12 +11,12 @@ public class Cereal
     // the name, calories, fiber, carbohydrates, and cups
     private String name;
     private int calories;
-    private int fiber;
-    private int carbs;
-    private int cups; 
+    private double fiber;
+    private double carbs;
+    private double cups; 
 
     // constructor that creates a cereal object
-    public Cereal(String a, int b, int c, int d, int e){
+    public Cereal(String a, int b, double c, double d, double e){
         name=a;
         calories=b;
         fiber=c;
@@ -34,15 +34,15 @@ public class Cereal
         return calories;
     }
 
-    public int getFiber(){
+    public double getFiber(){
         return fiber;
     }
 
-    public int getCarbs(){
+    public double getCarbs(){
         return carbs;
     }
 
-    public int getCups(){
+    public double getCups(){
         return cups;
     }
 
