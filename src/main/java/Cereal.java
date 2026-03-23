@@ -10,13 +10,13 @@ public class Cereal
     // private instance variables to hold info about a cereal from the data set
     // the name, calories, fiber, carbohydrates, and cups
     private String name;
-    private int calories;
+    private double calories;
     private double fiber;
     private double carbs;
     private double cups; 
 
     // constructor that creates a cereal object
-    public Cereal(String a, int b, double c, double d, double e){
+    public Cereal(String a, double b, double c, double d, double e){
         name=a;
         calories=b;
         fiber=c;
