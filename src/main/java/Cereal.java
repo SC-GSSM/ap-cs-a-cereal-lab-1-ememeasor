@@ -30,7 +30,7 @@ public class Cereal
         return name;
     }
 
-     public int getCalories(){
+     public double getCalories(){
         return calories;
     }
 
